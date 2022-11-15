@@ -1,0 +1,71 @@
+@import url(../../assets/styles/normalize.css);
+@import url(../styles/fonts.css);
+@import url(../styles/header.css);
+@import url(../styles/footer.css);
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 298px;
+    height: 54px;
+    background: #FE9013;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #E47209;
+    cursor: pointer;
+    transition: .8s;
+}
+
+button:active {
+    background-color: #4B9200;
+}
+
+ul {
+    list-style: none;
+    /*убираем маркеры списка*/
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    /*убираем левый отступ, равный 40px*/
+}
+
+a {
+    text-decoration: none;
+    /*убираем подчеркивание текста ссылок*/
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.petsImage {
+    background-size: cover;
+    width: 366px;
+    height: 366px;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.petsImage:hover {
+    transform: scale(1.1);
+    -webkit-filter: brightness(30%);
+}

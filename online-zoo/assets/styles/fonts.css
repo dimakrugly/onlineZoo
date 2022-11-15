@@ -1,0 +1,196 @@
+/* Fonts */
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+.bodyFontPS {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.bodyFontP {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.bodyFontS {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.bodyFontXXS {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+
+.bodyFontXS {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: none;
+    color: #333B41;
+}
+
+.bodyFontXXXS {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.bodyFontL {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: none;
+    color: #333B41;
+}
+
+.bodyFontM {
+    grid-row-start: 5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: none;
+    color: #333B41;
+}
+
+.bodyFontXM {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.bodyFontXL {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: none;
+    color: #333B41;
+}
+
+@media (max-width: 320px) {
+    .bodyFontXL {
+        font-size: 24px;
+    }
+}
+
+.bodyFontBtnM {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
+
+.h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 75%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.bodyFontXXL {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.bodyFontRXL {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.bodyFontAmount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+
+.bodyFontAmountInput {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+}
+
+.bodyFontRadio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.mainButtonText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

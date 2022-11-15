@@ -1,0 +1,80 @@
+@media screen and (max-width: 1599px){
+
+    header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .wrapper {
+        max-width: 940px;
+    }
+
+    .listBurger{
+        display: none;
+    }
+
+    .menuFooterTablet {
+        display: none;
+    }
+    .navButton {
+        margin-right: 48px;
+    }
+
+    .pandaBackground {
+        height: 390px;
+        background-image: url(../../../images/donate/panda_bg.png);
+    }
+
+    .pandaTabletTitle {
+        max-width: 831px;
+    }
+    .pickInfoTitle {
+        max-width: 778px;
+    }
+
+    .subTitle {
+        margin-top: 29px;
+    }
+
+    .footerNavigation {
+        white-space: nowrap;
+    }
+
+    .footerSubscribe {
+        margin-left: -87px;
+    }
+
+    .footerNavigation {
+        margin-left: 0px;
+    }
+
+    .pick {
+        padding: 40px 0 32px 0;
+
+    }
+
+    .pickDonationContainer {
+        margin-top: 40px;
+        padding: 22px 44px 43px 47px;
+    }
+
+    .donationSubTitle {
+        margin-top: 11px;
+    }
+
+    .dotLine {
+        width: 110px;
+    }
+
+    .footerNavigation {
+        white-space: nowrap;
+    }
+
+    .footerSubscribe {
+        margin-left: -87px;
+    }
+
+    .footerNavigation {
+        margin-left: 0;
+    }
+}

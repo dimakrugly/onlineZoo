@@ -1,0 +1,301 @@
+@import url(../../assets/styles/main.css);
+
+.listBurger {
+    display: none;
+}
+
+.pandaBackground {
+    height: 386px;
+    background-size: cover;
+    background-image: url(../../assets/images/donate/pandaDonate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuFooterTablet {
+    display: none;
+}
+
+.pick {
+    padding: 40px 0 180px 0;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%);
+}
+
+.subTitle {
+    margin-top: 10px;
+    letter-spacing: 0.1px;
+}
+
+.pickInfoTitle {
+    margin-top: 46px;
+    color: #FE9013;
+    align-self: center;
+}
+
+.pickDonationContainer {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 40px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.donationTitle {
+    color: #FE9013;
+    align-self: center;
+}
+
+.donationSubTitle {
+    margin-top: 20px;
+}
+
+.pandaContainer {
+    margin-top: 107px;
+    align-self: center;
+    display: flex;
+
+}
+
+.pandaCount {
+    padding: 0px 89px;
+    margin-left: -118px;
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.countText {
+    margin-top: 11px;
+    color: #333B41;
+}
+
+.countX {
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    background-image: url(../../assets/images/donate/xIcon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 64px;
+    top: 25px;
+}
+
+
+.pandaImage {
+    width: 268px;
+    height: 198px;
+    background-size: cover;
+    background-image: url(../../assets/images/donate/pandaImage.png);
+    background-repeat: no-repeat;
+}
+
+.amount {
+    margin-top: 48px;
+    color: #000;
+}
+
+.pickLine {
+    margin-top: 17px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+    padding: 0 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot,
+.dotTablet {
+    width: 10px;
+    height: 10px;
+    background: #FFEE2E;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.dotLine {
+    top: 4px;
+    width: 131px;
+    height: 2px;
+    background-color: #72828E;
+    position: absolute;
+    content: "";
+    left: 10px;
+}
+
+
+/* .dot::after {
+    top: 4px;
+    width: 131px;
+    height: 2px;
+    background-color: #72828E;
+    position: absolute;
+    content: "";
+    left: 10px;
+} */
+
+.dot:last-child::after {
+    width: 0;
+
+}
+
+.activeDot::after {
+    width: 23px;
+    height: 23px;
+    border-radius: 14px;
+    border: 2px #fe9013 solid;
+    position: absolute;
+    content: "";
+    top: -8.5px;
+    right: -8.5px;
+}
+
+.activeDot::before {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px #fe9013 solid;
+    position: absolute;
+    content: "";
+    top: -16.5px;
+    right: -16.5px;
+}
+
+.amountContainer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.amountBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.amountIcon {
+    margin-top: 9px;
+    width: 10px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(../../assets/images/donate/Dollar.png);
+    background-repeat: no-repeat;
+}
+
+.amountBlock:last-child {
+    margin-right: 26px;
+}
+
+
+
+.donateInputArea {
+    display: flex;
+    justify-content: center;
+
+}
+
+.donateInput {
+    margin-top: 50px;
+    height: 54px;
+    width: 268px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 16px 9px 16px 10px;
+
+}
+
+.dollarBill {
+    position: relative;
+}
+
+.dollarAmount {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 67px;
+    right: 10px;
+}
+
+.checkBoxContainer {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.radioMonthly {
+    margin-right: 47px;
+}
+
+.radioOnce {
+    padding-right: 18px;
+}
+
+.donateForm {
+    display: flex;
+
+}
+
+.customRadio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.bodyFontRadio{
+cursor: pointer;
+}
+/* для элемента label связанного с .custom-radio*/
+.customRadio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.customRadio+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #FE9013;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    cursor: pointer;
+}
+
+.customRadio:not(:disabled):checked+label::before {
+    background-color: #4B9200;
+    border-color: #4B9200;
+}
+
+.customRadio:checked {
+    border-color: #4B9200;
+    background-color: #4B9200;
+} 
+
+.donateButtonContainer {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.shareDonate {
+    margin-top: 31px;
+    text-align: center;
+}

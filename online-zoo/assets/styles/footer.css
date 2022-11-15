@@ -1,0 +1,131 @@
+/*FOOTER*/
+
+footer {
+    padding: 41px 0 50px 0;
+    background-color: #111115;
+}
+
+.footerTable {
+    display: flex;
+}
+
+.footerInfoColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerButtonArea {
+    margin-top: 65px;
+}
+
+.footerButton {
+    border-radius: 5px;
+}
+
+.footerSocialAreaContainer {
+    margin-top: 44px;
+}
+
+.footerSocialArea {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerSocialArea:first-child {
+    margin-top: 0;
+}
+
+.footerFacebook {
+    display: flex;
+}
+
+.footerSocialLogo {
+    width: 26px;
+    height: 26px;
+    background-color: #C4C4C480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+.footerSocialLogo:active{
+background-color: #4B9200;
+}
+
+.footerFacebookIcon {
+    width: 8px;
+    height: 16px;
+}
+
+.footerTwitterIcon {
+    width: 16px;
+    height: 14px;
+}
+
+.footerInstagramIcon {
+    width: 16px;
+    height: 16px;
+}
+
+.footerYoutubeIcon {
+    width: 18px;
+    height: 13px;
+}
+
+
+.socialName {
+    margin-left: 12px;
+}
+
+.footerNavigation {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 101px;
+}
+
+.footerSubscribe {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputArea {
+    margin-top: 14px;
+    display: flex;
+}
+
+.emailInput {
+    width: 228px;
+    height: 42px;
+    background-color: #111115;
+    border: 1px #F9804B solid;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.emailInput::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+
+.inputButtonContainer {
+    margin-left: 10px;
+}
+
+.inputButton {
+    width: 129px;
+    height: 42px;
+    background-color: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+}

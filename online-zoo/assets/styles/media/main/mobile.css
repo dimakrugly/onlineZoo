@@ -1,0 +1,275 @@
+@media (max-width: 639px) {
+
+    .wrapper {
+        max-width: 300px;
+    }
+
+    .main {
+        height: 221px;
+        background-image: url(../../../images/main/pandaMobile.png);
+        background-position-y: 0;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+        top: 54px;
+        right: 41px;
+    }
+
+    .mainText {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .mainTextContainer {
+        top: 21px;
+        left: 19px;
+    }
+
+    .mainButton {
+        width: 298px;
+        height: 54px;
+    }
+
+    .mainButtonContainer {
+        position: absolute;
+        right: 3px;
+        top: 126px;
+    }
+
+    .plantFirst {
+        right: 0;
+        top: 9px;
+        width: 79px;
+        height: 217px;
+        background-position-x: 48px;
+    }
+
+    .backstageTitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 45px;
+    }
+
+    .backstageSubTitle {
+        max-width: 285px;
+        margin-top: 11px;
+    }
+
+    .backstageSecTitle {
+        margin-top: 17px;
+    }
+
+    .backstageSecSubTitle {
+        margin-top: 8px;
+        min-width: auto;
+        line-height: 138%;
+    }
+
+    .sliderLeft {
+        display: none;
+    }
+
+    .sliderRight {
+        display: none;
+    }
+
+    .pets {
+        margin-top: 40px;
+    }
+
+    .petsContentUp {
+        flex-direction: column;
+    }
+
+    .petsCard:first-child {
+        margin-bottom: 20px;
+    }
+
+    .petsContentBottom {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .petsButton {
+        margin-top: 21px;
+    }
+
+    .plantSecond {
+        background-position-x: -20px;
+        top: 1958px;
+        width: 92px;
+        height: 68px;
+    }
+
+    .plantThird {
+        background-position-x: -91px;
+        top: 1950px;
+        width: 153px;
+        height: 104px;
+    }
+
+    .pick {
+        margin-top: 59px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .pickTable {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px 0px 35px 2px;
+    }
+
+    .pickTitleText {
+        font-size: 24px;
+    }
+
+    .pickTitle {
+        margin-top: 12px;
+    }
+
+    .pickSubTable {
+        padding-left: 0;
+    }
+
+    .pickInfo,
+    .pickSubInfo {
+        display: none;
+    }
+
+    .pickSubTitleText {
+        font-size: 18px;
+    }
+
+    .pickSubTitle {
+        margin-top: 10px;
+        text-align: center;
+        width: auto;
+    }
+
+    .pickSecondTitle {
+        margin-top: 19px;
+    }
+
+    .pickTableButton {
+        margin-top: 23px;
+    }
+
+    .pickCardsTable {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pickMobileArrowSecond {
+        top: 192px;
+        left: 206px;
+        right: 0;
+        transform: rotate(85deg);
+    }
+
+    .pickMobileArrow {
+        transform: rotate(82deg);
+        top: 440px;
+        left: 205px;
+    }
+
+    .testimonials {
+        padding-bottom: 60px
+    }
+
+    .testimonialsSliderItem {
+        max-width: 297px;
+        height: 105px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+
+    .testimonialsTitle {
+        margin-top: 31px;
+    }
+
+   
+
+    .testimonialsSlider {
+        margin-top: 18px;
+    }
+
+    .testimonialsButtonArea {
+        margin-top: 20px;
+    }
+
+    .leaf {
+        right: -35px;
+        top: 529px;
+        width: 74px;
+        height: 72px;
+        rotate: 19deg;
+    }
+
+    footer {
+        padding: 12px 0 20px 0;
+        position: relative;
+    }
+
+    footer .logoText br {
+        display: none;
+    }
+
+    footer .logo {
+        border: 0;
+        width: auto;
+        padding: 0;
+        margin-right: 0;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .bamboo {
+        left: 160px;
+        top: 0;
+    }
+
+    .footerButtonArea {
+        margin-top: 84px;
+    }
+
+    .footerSocialAreaContainer {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        top: 29px;
+        right: 33px;
+    }
+
+    .footerSocialArea {
+        margin-top: 0;
+        margin-right: 30px;
+    }
+
+    .listFooter {
+        margin-top: 15px;
+        
+    }
+
+   
+    .navButtonF:last-child {     
+        min-width: 79px;       
+    }
+
+    .navFooterActive {
+        color: orange !important;
+    }
+
+}

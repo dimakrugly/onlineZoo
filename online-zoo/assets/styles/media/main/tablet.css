@@ -1,0 +1,367 @@
+@media screen and (max-width: 999px) {
+
+    .wrapper {
+        width: 600px;
+    }
+
+    header {
+        position: fixed;
+        height: 34px;
+    }
+
+    .headerContainer {
+        display: none;
+    }
+
+    .burgerButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 18px;
+        height: 10px;
+        padding: 5px 0;
+        margin-top: 3px;
+        position: relative;
+    }
+
+    .burgerLine {
+        background-color: #fff;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .smallLogoContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .smallLogo {
+
+        width: 47px;
+        height: 29px;
+        background-size: cover;
+        background-image: url(../../../images/main/smallHeaderLogo.png);
+    }
+
+    .listBurger {
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+    }
+
+    .navButtonLink {
+        margin-left: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    .smallLogoBurger {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 65.6px;
+        height: 41.6px;
+        border: 1px orange solid;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .smallLogoBurgerImage {
+        background-size: cover;
+        background-image: url(../../../images/main/petstor.png);
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 30px;
+    }
+
+    .main {
+        background-position-y: 0;
+        height: 373px;
+        background-image: url(../../../images/main/pandaTablet.png);
+    }
+
+    .circle {
+        width: 238px;
+        height: 238px;
+        top: 45px;
+        right: 73px;
+    }
+
+    .mainTextContainer {
+        top: 38px;
+        left: 43px;
+    }
+
+    .mainText {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54.2894px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .mainButtonContainer {
+        position: absolute;
+        right: 304px;
+        top: 156px;
+    }
+
+    .backstageImageContainer {
+        display: none;
+    }
+
+    .backstageGrid {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .backstageSubTitle {
+        margin-top: 23px;
+    }
+
+    .backstageSecTitle {
+        margin-top: 27px;
+    }
+
+    .backstageSecSubTitle {
+        margin-top: 20px;
+        min-width: 500px;
+    }
+
+    .plantFirst {
+        display: block;
+        background-position-x: 25px;
+        position: absolute;
+        right: -1px;
+        top: -35px;
+        width: 154px;
+        height: 478px;
+    }
+
+    .pets {
+        margin-top: 85px;
+    }
+
+    .petsCard {
+        max-width: 280px;
+        height: 330px;
+    }
+
+    .petsCard:last-child {
+        display: none;
+    }
+
+    .sliderRight {
+        right: 243px;
+        top: 821px;
+    }
+
+    .sliderLeft {
+        left: 243px;
+        top: 821px;
+    }
+
+    .petsButton {
+        margin-top: 60px;
+    }
+
+    .plantSecond {
+        top: 1310px;
+        width: 160px;
+        height: 141px;
+    }
+
+    .plantThird {
+        background-position-x: -251px;
+        top: 1246px;
+    }
+
+    .pick {
+        margin-top: 101px;
+        height: 780px;
+    }
+
+    .pickTable {
+        margin-right: -20px;
+        margin-left: -20px;
+        margin-top: 20px;
+        padding: 10px 20px 60px 20px;
+    }
+
+    .pickTitle {
+        margin-top: 0px;
+    }
+
+    .pickTitleText {
+        font-size: 42px;
+    }
+
+    .pickSubTitleText {
+        font-size: 22px;
+    }
+
+    .pickSubTitle {
+        margin-top: 19px;
+        width: auto;
+    }
+
+    .pickInfo {
+        max-width: 600px;
+    }
+
+    .pickSubInfoText br {
+        display: none;
+    }
+
+    .pickSecondTitle {
+        margin-top: 30px;
+    }
+
+    .pickCardsTable {
+        margin-top: 18px;
+        padding: 0 9px;
+    }
+
+    .pickMobileArrow {
+        display: flex;
+        position: absolute;
+        top: -10px;
+        left: 138px;
+    }
+
+    .pickMobileArrowSecond {
+        display: flex;
+        position: absolute;
+        top: -11px;
+        right: 169px;
+    }
+
+    .pickArrow,
+    .pickArrowSecond {
+        display: none;
+    }
+
+    .pickCardInfo {
+        margin-top: 28px;
+    }
+
+    .pickTableButton {
+        margin-top: 40px;
+    }
+
+    .testimonials {
+        padding-bottom: 78px;
+    }
+
+    .testimonialsTitle {
+        margin-top: 62px;
+    }
+
+    .testimonialsSlider {
+        flex-direction: column;
+    }
+
+    .testimonialsSliderItem {
+        width: 100%;
+        height: 105px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+
+    .testimonialsSliderItem:first-child {
+        margin-top: 0;
+    }
+
+
+    .testimonialsText {
+        color: #4F4F4F;
+    }
+
+    .range {
+        display: none;
+    }
+
+    .testimonialsButtonArea {
+        margin-top: 30px;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    .testimonialsButton {
+        width: 239px;
+    }
+
+    .leaf {
+        right: -72px;
+        top: 566px;
+        width: 154px;
+        height: 121px;
+    }
+
+    footer {
+        padding: 12px 0 11px 0;
+        position: relative;
+    }
+
+    .footerButtonArea {
+        margin-top: 30px;
+    }
+
+    .footerSubscribe {
+        display: none;
+    }
+
+    .footerSocialAreaContainer {
+        position: absolute;
+        top: -31px;
+        right: 21px;
+    }
+
+    .footerSocialLogo {
+        margin-bottom: 10px;
+    }
+
+    .socialName {
+        display: none;
+    }
+
+    .menuFooterTablet {
+        display: flex;
+        margin-top: 98px;
+    }
+
+    .listFooter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .listFooter a {
+        color: white;
+    }
+
+    .navButtonF:first-child {
+        margin-left: 0;
+    }
+
+    .navButtonF {
+        margin-left: 38px;
+    }
+}

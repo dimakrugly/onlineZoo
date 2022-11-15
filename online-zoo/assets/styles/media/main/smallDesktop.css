@@ -1,0 +1,257 @@
+@media screen and (max-width: 1599px) {
+
+    header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .wrapper {
+        max-width: 940px;
+    }
+
+    .navButton {
+        margin-right: 48px;
+    }
+
+    .burgerButton {
+        display: none;
+    }
+
+    .circle {
+        width: 367px;
+        height: 367px;
+        top: 69px;
+        right: 178px;
+        z-index: 0;
+    }
+
+    .main {
+        height: 584px;
+        background-image: url(../../../images/main/pandaSmallDesktop.png);
+    }
+
+    .mainTextContainer {
+        top: 54px;
+        left: 66px;
+    }
+
+    .mainText {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .mainButton {
+        margin-top: 40px;
+    }
+
+    .plantFirst {
+        display: none;
+    }
+
+    .backstage {
+        margin-top: 29px;
+    }
+
+    .backstageImage {
+        width: 455px;
+        height: 408px;
+    }
+
+    .backstageTitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 120%;
+        color: #333B41;
+    }
+
+    .backstageImageContainer {
+        display: flex;
+        justify-content: center;
+        width: 455px;
+        height: 408px;
+        background-size: cover;
+        background-image: url(../../../images/main/bambooCap1000.png);
+        background-repeat: no-repeat;
+        margin-right: 0;
+    }
+
+    .backstageImage {
+        display: none;
+    }
+
+    .backstageGrid {
+        display: flex;
+        flex-direction: column;
+        max-width: 454px;
+        margin-left: 31px;
+    }
+
+    .backstageSubTitle {
+        margin-top: 13px;
+    }
+
+    .backstageSecSubTitle {
+        margin-top: 34px;
+    }
+
+    .pets {
+        margin-top: 144px;
+    }
+
+    .petsImage {
+        background-size: cover;
+        width: 294px;
+        height: 294px;
+        object-fit: cover;
+        transition: .6s;
+    }
+
+    .petsCard {
+        height: 351px;
+    }
+
+    .sliderRight {
+        right: 351px;
+        top: 929px;
+    }
+
+    .sliderLeft {
+        left: 353px;
+        top: 928px;
+    }
+
+    .petsContentBottom {
+        margin-top: 91px;
+    }
+
+    .petsButton {
+        margin-top: 84px;
+    }
+
+    .plantThird {
+        background-position-x: -191px;
+        top: 1434px;
+        width: 386px;
+        height: 202px;
+    }
+
+    .plantSecond {
+        top: 1454px;
+        width: 241px;
+        height: 180px;
+    }
+
+    .pick {
+        margin-top: 140px;
+        height: 876px;
+    }
+
+  
+    .pickTitle {
+        margin-top: 31px;
+    }
+
+    .pickSubTitle {
+        width: 101%;
+        margin-top: 22px;
+    }
+
+    .pickSubInfoText br {
+        display: none;
+    }
+
+    .pickInfo {
+        max-width: 805px;
+        margin-top: 20px;
+    }
+
+    .pickSubInfo {
+        margin-top: 4px;
+    }
+
+    .pickCardsTable {
+        margin-top: 37px;
+        display: flex;
+        padding: 0 49px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .pickArrow {
+        position: absolute;
+        width: 72px;
+        height: 35px;
+        left: 246px;
+        top: 62px;
+    }
+
+    .pickArrowSecond {
+        left: 527px;
+        top: 60px;
+    }
+
+    .pickTable {
+        margin-top: 29px;
+        height: auto;
+        padding: 4px 50px 50px 50px;
+    }
+
+    .pickTableButton {
+        margin-top: 68px;
+    }
+
+    .pickSecondTitle {
+        margin-top: 35px;
+    }
+
+    .testimonialsTitle {
+        margin-top: 101px;
+    }
+
+    .testimonialsSliderItem {
+        width: 31%;
+    }
+
+    .testimonialsSliderItem:last-child {
+        display: none;
+    }
+
+    .testimonialsSlider {
+        margin-top: 29px;
+    }
+
+    .range {
+        width: 401px;
+    }
+
+    .testimonialsButtonArea {
+        margin-top: 48px;
+        padding-bottom: 140px;
+    }
+
+    .leaf {
+        right: -89px;
+        top: 650px;
+        width: 240px;
+        height: 235px;
+    }
+
+    .footerNavigation {
+        white-space: nowrap;
+    }
+
+    .footerSubscribe {
+        margin-left: -87px;
+    }
+
+    .footerNavigation {
+        margin-left: 0;
+    }
+}

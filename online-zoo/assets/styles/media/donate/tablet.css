@@ -1,0 +1,243 @@
+@media screen and (max-width: 999px) {
+    .wrapper {
+        width: 600px;
+    }
+
+    header {
+        position: fixed;
+        height: 34px;
+    }
+
+    .headerContainer {
+        display: none;
+    }
+
+
+    .burgerButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 18px;
+        height: 10px;
+        padding: 5px 0;
+        margin-top: 3px;
+        position: relative;
+    }
+
+    .burgerLine {
+        background-color: #fff;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .smallLogoContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .smallLogo {
+        width: 47px;
+        height: 29px;
+        background-size: cover;
+        background-image: url(../../../images/main/smallHeaderLogo.png);
+    }
+
+
+
+    .listBurger {
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        left: 0;`
+    }
+
+    .navButtonLink {
+        margin-left: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+
+
+    .smallLogoBurger {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 65.6px;
+        height: 41.6px;
+        border: 1px orange solid;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .smallLogoBurgerImage {
+        background-size: cover;
+        background-image: url(../../../images/main/petstor.png);
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 30px;
+
+    }
+
+    .pandaBackground {
+        background-position-y: 15px;
+        height: 370px;
+        background-size: cover;
+        background-image: url(../../../images/donate/pandaDonateBG.png);
+        background-repeat: no-repeat;
+    }
+
+
+    .pandaTabletTitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .pick {
+        padding: 30px 0 44px 0;
+    }
+
+    .subTitle {
+        margin-top: 19px;
+    }
+
+    .pickInfoTitle {
+        margin-top: 30px;
+    }
+
+    .pickDonationContainer {
+        margin-top: 29px;
+        padding: 28px 44px 32px 47px;     
+    }
+    
+
+    .donationSubTitle {
+        margin-top: 22px;
+    }
+
+    .donationSubTitle span {
+        margin-left: 88px;
+    }
+
+    .pandaContainer {
+        margin-top: 99px;
+    }
+
+    .amount {
+        margin-top: 35px;
+    }
+
+    .pickLine {
+        margin-right: -44px;
+        margin-left: -47px;
+        margin-top: 11px;
+    }
+
+
+    .dotLine {
+        width: 124px;
+    }
+
+    .dotTablet {
+        display: none;
+    }
+
+    .sumDesktop {
+        display: none;
+    }
+
+    .amountContainer {
+        margin-left: -28px;
+        margin-right: -44px;
+    }
+
+    .donateInput{
+        height: 41px;
+    width: 185px;
+    }
+
+    .dollarAmount{
+        top: 62px;
+    }
+    .donateButtonContainer {
+        margin-top: 32px;
+    }
+
+
+
+footer {
+    padding: 12px 0 11px 0;
+    position: relative;
+}
+
+.footerButtonArea {
+    margin-top: 30px;
+}
+
+.footerSubscribe {
+    display: none;
+}
+
+.footerSocialAreaContainer {
+    position: absolute;
+    top: -31px;
+    right: 21px;
+}
+
+
+.footerSocialArea {}
+
+.footerSocialLogo {
+    margin-bottom: 10px;
+}
+
+
+.socialName {
+    display: none;
+}
+
+.menuFooterTablet {
+    display: flex;
+    margin-top: 98px;
+}
+
+.listFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.listFooter a {
+    color: white;
+}
+
+.navButtonF:first-child {
+    margin-left: 0;
+}
+
+.navButtonF {
+    margin-left: 38px;
+}
+
+.menu {
+    display: none;
+}
+}

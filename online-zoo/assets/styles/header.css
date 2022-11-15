@@ -1,0 +1,93 @@
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    position: relative;
+    padding: 4px 5px;
+    margin-right: 63px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+.bamboo {
+    position: absolute;
+    left: 13px;
+    top: 25px;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.navButton {
+    margin-right: 58px;
+}
+
+.navButton:last-child {
+    margin-right: 0;
+}
+
+.navButtonLink {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navButtonActive {
+    color: #F9804B;
+}
+
+.copyWriteContainer {
+    display: flex;
+    align-items: center;
+}
+
+.copyWrite {
+    color: #FFFFFF;
+}
+
+.copyWrite:hover {
+    color: #F9804B;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.navButtonLink:hover {
+    color: #F9804B;
+    transition: .5s;
+    cursor: pointer;
+}
+

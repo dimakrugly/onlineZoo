@@ -1,0 +1,570 @@
+@import url(../../assets/styles/main.css);
+
+.listBurger {
+    display: none;
+}
+
+.menuFooterTablet {
+    display: none;
+}
+
+.pickMobileArrowSecond {
+    display: none;
+}
+
+/* MAIN */
+
+.main {
+    height: 700px;
+    background-size: cover;
+    background-image: url(../../assets/images/main/panda.png);
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+    display: flex;
+}
+
+.circle {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    top: 92px;
+    right: 328px;
+}
+
+.mainTextContainer {
+    position: absolute;
+    text-align: center;
+    top: 74px;
+    left: 83px;
+}
+
+.mainText {
+    letter-spacing: 1.2px;
+}
+
+.mainText span {
+    color: #FFEE2E;
+}
+
+.mainButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainButton {
+    margin-top: 60px;
+}
+
+.burgerButton {
+    display: none;
+}
+
+/*BACKSTAGE*/
+.backstage {
+    display: flex;
+    margin-top: 140px;
+    position: relative;
+}
+
+.backstageContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.backstageImageContainer {
+    margin-right: 87px;
+}
+
+.backstageImage {
+    width: 609px;
+    height: 403px;
+}
+
+.backstageSubTitle {
+    margin-top: 20px;
+}
+
+.backstageSecTitle {
+    margin-top: 54px;
+}
+
+.backstageSecSubTitle {
+    margin-top: 34px;
+}
+
+/*PETS*/
+
+.pets {
+    margin-top: 177px;
+}
+
+.petsContentUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.petsCard {
+    border: 1px #FA6F32 solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 426px;
+}
+
+.petsImageContainer {
+    overflow: hidden;
+}
+
+.petsPandaImg {
+    background-image: url(../../assets/images/main/petsPanda.png);
+}
+
+.petsEagleImg {
+    background-image: url(../../assets/images/main/petsEagle.png);
+}
+
+.petsGorillaImg {
+    background-image: url(../../assets/images/main/petsGorilla.png);
+}
+
+.petsSlothImg {
+    background-image: url(../../assets/images/main/petsSloth.png);
+}
+
+.petsCheetahImg {
+    background-image: url(../../assets/images/main/petsCheetah.png);
+}
+
+.petsPenguinImg {
+    background-image: url(../../assets/images/main/petsPenguin.png);
+}
+
+.petsInfo {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.petsText {
+    display: flex;
+    flex-direction: column;
+}
+
+.petsTitle {
+    margin-top: 8px;
+}
+
+.petsVegeterian {
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    right: 12px;
+    top: 10px;
+}
+
+.petsMeat {
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    right: 12px;
+    top: 10px;
+}
+
+.logoFirst {
+    position: absolute;
+    right: 7px;
+    top: -1px;
+}
+
+.logoSecond {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.logoThird {
+    position: absolute;
+    bottom: 7px;
+    right: -2px;
+    z-index: 1;
+}
+
+.logoFourth {
+    position: absolute;
+    right: 11px;
+}
+
+.petsContentBottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.petsButtonArea {
+    display: flex;
+    justify-content: center;
+}
+
+.petsButton {
+    margin-top: 75px;
+
+}
+
+/*RESPONSIVE ELEMENTS*/
+
+.sliderRight {
+    background-repeat: no-repeat;
+    background-position-x: 93px;
+    position: absolute;
+    right: 140px;
+    top: 986px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sliderButtonRight {
+    width: 63px;
+    height: 63px;
+    border-radius: 50px;
+}
+
+.sliderLeft {
+    background-repeat: no-repeat;
+    background-position-y: revert;
+    position: absolute;
+    left: 138px;
+    top: 986px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sliderButtonLeft {
+    width: 63px;
+    height: 63px;
+    border-radius: 50px;
+    transform: scale(-1, 1);
+}
+
+
+.plantFirst {
+    background-size: cover;
+    background-image: url(../../assets/images/main/plant1.png);
+    background-repeat: no-repeat;
+    background-position-x: 93px;
+    position: absolute;
+    right: 0;
+    top: -128px;
+    width: 293px;
+    height: 605px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.plantSecond {
+    background-size: cover;
+    background-image: url(../../assets/images/main/plant2.png);
+    transform: scale(-1, 1);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 1413px;
+    width: 368px;
+    height: 275px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.plantThird {
+    background-size: cover;
+    background-image: url(../../assets/images/main/plant3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-y: revert;
+    left: 0;
+    background-position-x: -587px;
+    top: 1229px;
+    width: 880px;
+    height: 460px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* SECTION Pick and feed a friend*/
+
+.pick {
+    margin-top: 100px;
+    height: 1004px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    display: flex;
+}
+
+.pickTable {
+    margin-top: 69px;
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px 60px 100px;
+}
+
+.pickMobileArrow {
+    display: none;
+}
+
+.pickSubTable {
+    display: flex;
+    flex-direction: column;
+}
+
+.pickTitleText {
+    text-align: center;
+    color: #FE9013;
+}
+
+.pickSubTitle {
+    margin-top: 30px;
+}
+
+.pickSubTitleText {
+    line-height: 120%;
+}
+
+.pickInfo {
+    margin-top: 40px;
+}
+
+.pickInfoText {
+    font-weight: 500;
+}
+
+.pickSubInfo {
+    margin-top: 10px;
+}
+
+.pickSubInfoText span {
+    border-bottom: 1px #FE9013 solid;
+    line-height: 26px;
+}
+
+.pickSubInfoText a {
+    color: #333B41;
+    text-decoration: none;
+}
+
+.pickSecondTitle {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.pickSecondTitleText {
+    font-size: 36px;
+    color: #333B41;
+}
+
+.pickCardsTable {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    padding: 0 98px;
+}
+
+.pickColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.pickCard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 168px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px orange solid;
+}
+
+.pickArrow {
+    position: absolute;
+    width: 69px;
+    height: 35px;
+    left: 298px;
+    top: 62px;
+}
+
+.pickArrowSecond {
+    left: 595px;
+    top: 58px;
+}
+
+.pickCardInfo {
+    margin-top: 30px;
+    height: 46px;
+    width: 168px;
+}
+
+.pickCardText {
+    line-height: 140%;
+}
+
+/*TESTIMONIALS*/
+
+.testimonials {
+    overflow: hidden;
+    position: relative;
+}
+
+.pickTableButton {
+    margin-top: 60px;
+}
+
+.testimonialsTitle {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonialsSlider {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.testimonialsSliderItem {
+    border-radius: 20px;
+    width: 268px;
+    height: 391px;   
+    border: double 2px transparent;    
+    background-image: linear-gradient(white, white), 
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.cardWrapper {
+    margin: 15px 15px 19px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialsSliderInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonialsInfoTitle {
+    margin-left: 10px;
+}
+
+.testimonialsName {
+    line-height: 120%;
+}
+
+.testimonialsTableInfo {
+    display: flex;
+}
+
+.tableSmallMargin {
+    margin-left: 5px;
+}
+
+.testimonailCardText {
+    margin-top: 5px;
+    margin-bottom: 19px;
+    line-height: 100%;
+    height: 309px;
+    overflow: hidden;
+}
+
+.avatarUserSecond {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url(../../assets/images/main/grandpa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatarUserThird {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url(../../assets/images/main/userThird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatarUserFourth {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-image: url(../../assets/images/main/userFourth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sliderBar {
+    margin-top: 10px;
+}
+
+.range {
+    width: 600px;
+    height: 6px;
+    border: 1px orange solid;
+}
+
+.range::-webkit-slider-thumb {
+    display: none;
+}
+
+.sliderBar .bar {
+    background-color: #E47209;
+    width: 25%;
+    height: 6px;
+}
+
+.sliderBar .bar .fill {
+    background-color: #E47209;
+    width: 25%;
+}
+
+.testimonialsButtonArea {
+    margin-top: 28px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.testimonialsButton {
+    border-radius: 5px;
+}
+
+.leaf {
+    background-size: cover;
+    background-image: url(../../assets/images/main/leaf.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-x: 3px;
+    transform: scale(-1, 1);
+    right: -111px;
+    top: 701px;
+    width: 300px;
+    height: 295px;
+    rotate: 30deg;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
